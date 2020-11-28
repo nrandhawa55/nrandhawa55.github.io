@@ -23,7 +23,7 @@
 
 							<!-- Logo -->
 								<a href="welcome.html" class="logo">
-									<div id="p_logo"></div><span class="title">PUMPKIN</span>
+									<div id="p_logo"></div><span style="color:#DAB319" class="title">PUMPKIN</span>
 								</a>
 
 							<!-- Nav -->
@@ -38,20 +38,20 @@
 					<script>
   bonsai.run(document.getElementById('p_logo'), {
     code: function() {
-      new Polygon(20, 25, 20, 6).fill("#565a5d").addTo(stage);
+      new Polygon(21, 28, 21, 7).fill("#DAB319").addTo(stage);
 var t = new Text('55').addTo(stage).attr({
   fontFamily: 'Montserrat ExtraLight',
   fontSize: '20',
-  textStrokeColor: 'white',
-  textStrokeWidth: 2,
+  textStrokeColor: '#FFFFFF',
+  textStrokeWidth: 3,
   textAlign:'center',
-  textFillColor : 'white',
-  charSpacing: 3
+  textFillColor : '#DAB319',
+  charSpacing: 0
 });
 t.animate(new KeyframeAnimation('1s', {
-  from: { x: 20, y: 8 },
-  '100%': { x: 20, y: 18 },
-  to: { x: 20, y: 16 }
+  from: { x: 20, y: 7},
+  '100%': { x: 20, y: 21 },
+  to: { x: 20, y: 19 }
 }));
     },
     width: 50,

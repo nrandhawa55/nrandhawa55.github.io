@@ -38,20 +38,20 @@
 					<script>
   bonsai.run(document.getElementById('p_logo'), {
     code: function() {
-      new Polygon(20, 25, 20, 6).fill("#585858").addTo(stage);
+      new Polygon(21, 28, 21, 7).fill("#DAB319").addTo(stage);
 var t = new Text('55').addTo(stage).attr({
   fontFamily: 'Montserrat ExtraLight',
   fontSize: '20',
-  textStrokeColor: '#DAB319',
-  textStrokeWidth: 2,
+  textStrokeColor: '#FFFFFF',
+  textStrokeWidth: 3,
   textAlign:'center',
   textFillColor : '#DAB319',
   charSpacing: 0
 });
 t.animate(new KeyframeAnimation('1s', {
-  from: { x: 20, y: 8 },
-  '100%': { x: 20, y: 18 },
-  to: { x: 20, y: 16 }
+  from: { x: 20, y: 7},
+  '100%': { x: 20, y: 21 },
+  to: { x: 20, y: 19 }
 }));
     },
     width: 50,
@@ -72,7 +72,7 @@ t.animate(new KeyframeAnimation('1s', {
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>Where<a href="#"> passionate minds</a> provide tailor-made solutions<br/></h1>
+								<h1><a href="#"> Passionate minds</a> providing tailor-made solutions<br/></h1>
 								<p>At 55 Pumpkin Inc, we take special pride in taking customers to a hand holded journey where adoption to technology seems effective yet so simple.</p>
 							</header>
 
@@ -81,17 +81,37 @@ t.animate(new KeyframeAnimation('1s', {
 							</section>
 							<section class="tiles">
 								<article class="style1">
-									<h3>RPA</h3>
-									<blockquote>Robotics Process Automation</blockquote>
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
+									<a href="machine_learning.html">
+										<h2>RPA</h2>
+										<div class="content">
+											<p>Robotics Process Automation</p>
+										</div>
+									</a>
 								</article>
 								<article class="style2">
-									<h3>ML/AI</h3>
-									<blockquote>Machine Learning and Artificial Intelligence</blockquote>
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<a href="machine_learning.html">
+										<h2>ML/AI</h2>
+										<div class="content">
+											<p>Machine Learning and Artificial Intelligence</p>
+										</div>
+									</a>
 								</article>
 								<article class="style3">
-									<h3>Integration</h3>
-									<blockquote>Middleware integration technologies.</blockquote>
-								</article>
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<a href="machine_learning.html">
+										<h2>Integration</h2>
+										<div class="content">
+											<p>Middleware integration technologies.</p>
+										</div>
+									</a>
 								</article>
 								<article class="style4">
 									<span class="image">
