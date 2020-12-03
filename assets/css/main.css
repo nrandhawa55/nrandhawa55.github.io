@@ -1822,11 +1822,19 @@ input, select, textarea {
 		margin-top: 300px;
 	}
 
+	.topBar {
+		margin-left: 30px;
+		margin-top: 5px;
+	}
+
 	.fixedDiv {
 		overflow: hidden;
+		background-color: #585858;
  		position: fixed;
  		top:0;
- 		height: 200px;
+ 		height: 90px;
+ 		width: 100%;
+ 		margin-top: 0px;
  		
 	}
 
