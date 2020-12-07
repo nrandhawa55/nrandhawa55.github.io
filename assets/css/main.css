@@ -2562,7 +2562,10 @@ input, select, textarea {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 1em;
+			font-size:0.6em;
+			box-shadow: none;
+			background-color: #DAB319;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"].primary,
@@ -3384,6 +3387,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
+			width: 100%;
 		}
 
 			#footer1 > .inner > * > :last-child {
@@ -3391,7 +3395,7 @@ input, select, textarea {
 			}
 
 			#footer1 > .inner section:nth-child(1) {
-				width: calc(66% - 2.5em);
+				
 				margin-right: 2.5em;
 			}
 
